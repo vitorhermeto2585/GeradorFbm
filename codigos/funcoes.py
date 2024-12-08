@@ -140,6 +140,4 @@ def fbm_final(n, H=0.75, caminho=None):
         caminho = ""
 
     # Valida a série gerada com DFA e salva em CSV
-    print(f"Comprimento da série gerada: {len(serie)}")
-    print(f"Exponente de Hurst estimado (DFA): {DFA(np.array(serie))}")
     np.savetxt(f'{caminho}{metodo}_{n}_{H}.csv', serie, delimiter=',', comments='')
