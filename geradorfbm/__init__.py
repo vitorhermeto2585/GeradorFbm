@@ -4,7 +4,7 @@
 __version__ = "0.1.0"
 
 # Importa as funções principais do pacote
-from .funcoes import DFA
+#from .funcoes import DFA
 from .funcoes import fbm
 
 # Lista de elementos disponíveis ao importar o pacote
