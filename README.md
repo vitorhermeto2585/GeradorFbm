@@ -29,7 +29,7 @@ O **GeradorFbm** combina métodos avançados de geração de séries temporais e
      - `n` (int): Número de pontos na série temporal.
      - `H` (float): Parâmetro de Hurst (0 < H < 1).
      - `caminho` (str): Caminho para salvar a série gerada em CSV (opcional).
-   - **Retorno**: Salva a série gerada em um arquivo CSV
+   - **Retorno**: Salva a série gerada em um arquivo CSV delimitado por ","
 
 2. **`DFA`**: Analisa séries temporais para calcular o expoente de Hurst.
    - **Parâmetros**:
