@@ -48,4 +48,4 @@ O **GeradorFbm** combina métodos avançados de geração de séries temporais e
 Para instalar a biblioteca diretamente do GitHub, execute:
 
 ```bash
-pip install git+https://github.com/seu_usuario/GeradorFbm.git
+pip install git+https://github.com/vitorhermeto2585/GeradorFbm.git
