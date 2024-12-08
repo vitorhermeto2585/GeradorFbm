@@ -81,7 +81,7 @@ def fbm(n, H=0.75, caminho=None):
     
 
 # Função para realizar a análise DFA (Detrended Fluctuation Analysis)
-def DFA(serie_temporal, escala_min=11, escala_max=None, densidade=8, ordem=1):
+def dfa(serie_temporal, escala_min=11, escala_max=None, densidade=8, ordem=1):
     """
     Realiza a análise de Flutuação Sem Tendência (DFA) em uma série temporal.
 
