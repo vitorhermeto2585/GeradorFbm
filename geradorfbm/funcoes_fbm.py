@@ -1,3 +1,6 @@
+import numpy as np
+from scipy.interpolate import RectBivariateSpline
+
 # Função para gerar séries temporais simulando Movimento Browniano Fracionário (fBm)
 def fbm(n, H=0.75, caminho=None):
     """
