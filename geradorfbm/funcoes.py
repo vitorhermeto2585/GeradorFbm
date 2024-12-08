@@ -65,7 +65,7 @@ def DFA(serie_temporal, escala_min=11, escala_max=None, densidade=8, ordem=1):
     return flog[1]
 
 # Função para gerar séries temporais simulando Movimento Browniano Fracionário (fBm)
-def fbm_final(n, H=0.75, caminho=None):
+def FBM(n, H=0.75, caminho=None):
     """
     Gera uma série temporal de Movimento Browniano Fracionário (fBm) com base no parâmetro de Hurst.
 
